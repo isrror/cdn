@@ -14793,7 +14793,7 @@
     "group": 11085,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Flowing Blue]ダイイチルビー",
+    "holder": "[Flowing Blue]第一紅寶",
     "invokes": [
       {
         "skillId": "110851",
@@ -70109,7 +70109,7 @@
     "group": 20240,
     "type": "acceleration",
     "sp": 360,
-    "holder": "[Flowing Blue]ダイイチルビー",
+    "holder": "[Flowing Blue]第一紅寶",
     "invokes": [
       {
         "skillId": "108502111",
@@ -80563,12 +80563,12 @@
   },
   {
     "id": "108502211",
-    "name": "灰と化すまで",
+    "name": "直至化作灰燼",
     "rarity": "evo",
     "group": 20296,
     "type": "speed",
     "sp": 360,
-    "holder": "[Flowing Blue]ダイイチルビー",
+    "holder": "[Flowing Blue]第一紅寶",
     "invokes": [
       {
         "skillId": "108502211",
@@ -80608,7 +80608,7 @@
   },
   {
     "id": "202962",
-    "name": "滾る想い",
+    "name": "激揚的意志",
     "rarity": "normal",
     "group": 20296,
     "type": "speed",
