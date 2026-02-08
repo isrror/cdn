@@ -1061,7 +1061,7 @@
     "group": 1073,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[志、高し、強し！]ツルマルツヨシ",
     "invokes": [
       {
         "skillId": "10731",
@@ -5685,7 +5685,7 @@
     "group": 10073,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[志、高し、強し！]ツルマルツヨシ",
     "invokes": [
       {
         "skillId": "100731",
@@ -6089,7 +6089,7 @@
     "group": 10079,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[衣錦還郷の瑞星]フリオーソ",
     "invokes": [
       {
         "skillId": "100791",
@@ -7085,7 +7085,7 @@
     "group": 10090,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Le beau sommet]ヴィルシーナ",
     "invokes": [
       {
         "skillId": "100901",
@@ -7715,7 +7715,7 @@
     "group": 10096,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[紅色塗早駆具足]ノーリーズン",
     "invokes": [
       {
         "skillId": "100961",
@@ -8794,7 +8794,7 @@
     "group": 10110,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Future Weaver]シーザリオ",
     "invokes": [
       {
         "skillId": "101101",
@@ -8897,7 +8897,7 @@
     "group": 10111,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Inherited Hope]エアメサイア",
     "invokes": [
       {
         "skillId": "101111",
@@ -9182,7 +9182,7 @@
     "group": 10115,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[総攬]オルフェーヴル",
     "invokes": [
       {
         "skillId": "101151",
@@ -9380,7 +9380,7 @@
     "group": 10117,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
     "invokes": [
       {
         "skillId": "101171",
@@ -9755,7 +9755,7 @@
     "group": 10121,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Chevalier fidèle]デュランダル",
     "invokes": [
       {
         "skillId": "101211",
@@ -9901,7 +9901,7 @@
     "group": 10124,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[POPPING!]バブルガムフェロー",
     "invokes": [
       {
         "skillId": "101241",
@@ -9982,7 +9982,7 @@
     "group": 10127,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[義心の黒焔]フェノーメノ",
     "invokes": [
       {
         "skillId": "101271",
@@ -10073,7 +10073,7 @@
     "group": 10131,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[すまいる・まい・うぇい！]グランアレグリア",
     "invokes": [
       {
         "skillId": "101311",
@@ -10176,7 +10176,7 @@
     "group": 10132,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[9927 Wishes]ラヴズオンリーユー",
     "invokes": [
       {
         "skillId": "101321",
@@ -10262,7 +10262,7 @@
     "group": 10133,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[陸離の編纂者]クロノジェネシス",
     "invokes": [
       {
         "skillId": "101331",
@@ -10457,6 +10457,113 @@
       "レース後半に速度を少し上げ続ける2000m以上のレースならその後ラストスパートで短い間加速力が少し上がる＜差し/追込＞",
       "「差し」または「追込」の後「距離割合>=50」、目標速度2500、持続6.0",
       "「上記効果発動後、距離>=2000、ラストスパート」、加速3000、持続2.0"
+    ]
+  },
+  {
+    "id": "101371",
+    "name": "想像×創造＝∞",
+    "rarity": "unique",
+    "group": 10137,
+    "type": "multi",
+    "activateLot": 0,
+    "holder": "[Miracle Author]キセキ",
+    "invokes": [
+      {
+        "skillId": "101371",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            },
+            {
+              "type": "phase_firsthalf",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "is_used_skill_id",
+              "operator": "==",
+              "value": 202051
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ],
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "heal",
+            "value": 350
+          },
+          {
+            "type": "targetSpeed",
+            "value": 1500
+          }
+        ],
+        "duration": 5.0
+      },
+      {
+        "skillId": "101371",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            },
+            {
+              "type": "phase_firsthalf",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ],
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 2500
+          }
+        ],
+        "duration": 8.0
+      }
+    ],
+    "info": [
+      "中盤始めに中団以前だと長時間少し前に出続ける、「大逃げ」が発動していると効果が変わり、持久力を少し回復して速度がわずかに上がる＜中距離/長距離＞",
+      "「中距離」または「長距離」の後「順位率70以下（チャンミ～6/LoH～8）、中盤前半、大逃げ」、体力350、目標速度1500、持続5.0",
+      "「中距離」または「長距離」の後「順位率70以下（チャンミ～6/LoH～8）、中盤前半」、現在速度2500、持続8.0"
     ]
   },
   {
@@ -12725,7 +12832,7 @@
     "group": 11033,
     "type": "acceleration",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Glacialis Vega]アドマイヤベガ",
     "invokes": [
       {
         "skillId": "110331",
@@ -13326,7 +13433,7 @@
     "group": 11042,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Be♪Witched]シーキングザパール",
     "invokes": [
       {
         "skillId": "110421",
@@ -13658,7 +13765,7 @@
     "group": 11047,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Inlaid Stories]ゼンノロブロイ",
     "invokes": [
       {
         "skillId": "110471",
@@ -14420,7 +14527,7 @@
     "group": 11057,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[絢爛花道歌舞く君]ミスターシービー",
     "invokes": [
       {
         "skillId": "110571",
@@ -15274,7 +15381,7 @@
     "group": 11070,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Louve stellaire]シリウスシンボリ",
     "invokes": [
       {
         "skillId": "110701",
@@ -15717,7 +15824,7 @@
     "group": 11077,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Celestial Road]ナリタトップロード",
     "invokes": [
       {
         "skillId": "110771",
@@ -15826,7 +15933,7 @@
     "group": 11078,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Sugary Wind]ヤマニンゼファー",
     "invokes": [
       {
         "skillId": "110781",
@@ -16106,7 +16213,7 @@
     "group": 11084,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[With a Twist]タニノギムレット",
     "invokes": [
       {
         "skillId": "110841",
@@ -16273,7 +16380,7 @@
     "group": 11086,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Untouchable Eden]メジロラモーヌ",
     "invokes": [
       {
         "skillId": "110861",
@@ -16364,7 +16471,7 @@
     "group": 11087,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[溶けない砂糖菓子]アストンマーチャン",
     "invokes": [
       {
         "skillId": "110871",
@@ -16865,7 +16972,7 @@
     "group": 11098,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[光彩陸離☆招福衣]コパノリッキー",
     "invokes": [
       {
         "skillId": "110981",
@@ -17109,13 +17216,112 @@
     ]
   },
   {
+    "id": "111021",
+    "name": "ケ・ピアチェーヴォレ！",
+    "rarity": "unique",
+    "group": 11102,
+    "type": "speed",
+    "activateLot": 0,
+    "holder": "[ソナタ・アッラ・メンタ]サウンズオブアース",
+    "invokes": [
+      {
+        "skillId": "111021",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_rate",
+              "operator": ">=",
+              "value": 50
+            },
+            {
+              "type": "order_rate_in50_continue",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 4500
+          }
+        ],
+        "duration": 5.0
+      },
+      {
+        "skillId": "111021",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_rate",
+              "operator": ">=",
+              "value": 50
+            },
+            {
+              "type": "order_rate_in50_continue",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 5.0
+      }
+    ],
+    "info": [
+      "レース後半まで前方をキープしていると終盤の最終直線で速度が上がる中距離レースならすごく上がる",
+      "「距離割合>=50、順位率50以前維持（チャンミ～5/LoH～6）」の後「終盤、最終直線、中距離」、目標速度4500、持続5.0",
+      "「距離割合>=50、順位率50以前維持（チャンミ～5/LoH～6）」の後「終盤、最終直線」、目標速度3500、持続5.0"
+    ]
+  },
+  {
     "id": "111041",
     "name": "堅定一筆",
     "rarity": "unique",
     "group": 11104,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[雅号・墨龍]カツラギエース",
     "invokes": [
       {
         "skillId": "111041",
@@ -17195,7 +17401,7 @@
     "group": 11105,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Like “ZEER”]ネオユニヴァース",
     "invokes": [
       {
         "skillId": "111051",
@@ -17374,7 +17580,7 @@
     "group": 11107,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Tap! Tap! Tap!]タップダンスシチー",
     "invokes": [
       {
         "skillId": "111071",
@@ -17615,7 +17821,7 @@
     "group": 11110,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Twinbell Queen]シーザリオ",
     "invokes": [
       {
         "skillId": "111101",
@@ -17782,6 +17988,104 @@
       "残り1000ｍ地点で後方だと少しの間少し前に出る、長距離ならその後終盤のコーナーで追い抜いていた場合最終直線で短い間速度が上がる",
       "「順位率50以上（チャンミ5～/LoH6～）、残り距離999～1001」、現在速度2500、持続4.0",
       "「長距離、終盤、コーナー、追い抜き、上記効果発動後」の後「最終直線」、目標速度3500、持続3.0"
+    ]
+  },
+  {
+    "id": "111241",
+    "name": "暁霞を拓き、朝を掴む",
+    "rarity": "unique",
+    "group": 11124,
+    "type": "speed",
+    "activateLot": 0,
+    "holder": "[暁光]バブルガムフェロー",
+    "invokes": [
+      {
+        "skillId": "111241",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_finalcorner_laterhalf",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 2500
+          }
+        ],
+        "duration": 3.0
+      },
+      {
+        "skillId": "111241",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "is_activate_other_skill_detail",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "is_activate_other_skill_detail",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 4500
+          }
+        ],
+        "duration": 3.0
+      }
+    ],
+    "info": [
+      "終盤の最終コーナー後半に前方にいると短い間少し前に出る、マイルか中距離レースならその後最終直線で短い間すごく前に出る＜作戦・先行＞",
+      "「先行、終盤、最終コーナー後半、順位率50以下（チャンミ～5/LoH～6）」、現在速度2500、持続3.0",
+      "「上記効果発動後、マイル、最終直線」または「上記効果発動後、中距離、最終直線」、現在速度4500、持続3.0"
     ]
   },
   {
@@ -18048,7 +18352,7 @@
     "group": 12004,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
     "invokes": [
       {
         "skillId": "120041",
@@ -18415,13 +18719,109 @@
     ]
   },
   {
+    "id": "120101",
+    "name": "Have S'more Love!",
+    "rarity": "unique",
+    "group": 12010,
+    "type": "speed",
+    "activateLot": 0,
+    "holder": "[Baa Baa Patisserie]タイキシャトル",
+    "invokes": [
+      {
+        "skillId": "120101",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            },
+            {
+              "type": "order_rate",
+              "operator": ">=",
+              "value": 20
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "ground_type",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 5500
+          }
+        ],
+        "duration": 4.0
+      },
+      {
+        "skillId": "120101",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            },
+            {
+              "type": "order_rate",
+              "operator": ">=",
+              "value": 20
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 4.0
+      }
+    ],
+    "info": [
+      "中盤が迫ったどこかで中団にいると少しの間速度が上がる芝のマイルレースなら少しの間ものすごく上がる＜作戦・先行＞",
+      "「先行、序盤後半ランダム、順位率20～70（チャンミ2～6/LoH3～8）、マイル、芝」、目標速度5500、持続4.0",
+      "「先行、序盤後半ランダム、順位率20～70（チャンミ2～6/LoH3～8）」、目標速度3500、持続4.0"
+    ]
+  },
+  {
     "id": "120111",
     "name": "演舞．撫子大薙刀",
     "rarity": "unique",
     "group": 12011,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[蒼炎の誉]グラスワンダー",
     "invokes": [
       {
         "skillId": "120111",
@@ -18625,7 +19025,7 @@
     "group": 12023,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Engineered Victory]ビワハヤヒデ",
     "invokes": [
       {
         "skillId": "120231",
@@ -18720,7 +19120,7 @@
     "group": 12024,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
     "invokes": [
       {
         "skillId": "120241",
@@ -19249,7 +19649,7 @@
     "group": 12040,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Boho Flare]ゴールドシチー",
     "invokes": [
       {
         "skillId": "120401",
@@ -19470,7 +19870,7 @@
     "group": 12046,
     "type": "speed",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[ルミナス☆トワラー]スマートファルコン",
     "invokes": [
       {
         "skillId": "120461",
@@ -19655,7 +20055,7 @@
     "group": 12050,
     "type": "multi",
     "activateLot": 0,
-    "holder": "",
+    "holder": "[迷光オーヴァライド]ナリタタイシン",
     "invokes": [
       {
         "skillId": "120501",
@@ -29099,6 +29499,61 @@
     ]
   },
   {
+    "id": "901371",
+    "name": "想像×創造＝∞",
+    "rarity": "inherit",
+    "group": 10137,
+    "type": "speed",
+    "sp": 200,
+    "invokes": [
+      {
+        "skillId": "901371",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            },
+            {
+              "type": "phase_firsthalf",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ],
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 500
+          }
+        ],
+        "duration": 4.8
+      }
+    ],
+    "info": [
+      "中盤始めに中団以前だと長時間ちょっと前に出続ける＜中距離/長距離＞",
+      "「中距離」または「長距離」の後「順位率70以下（チャンミ～6/LoH～8）、中盤前半」、現在速度500、持続4.8"
+    ]
+  },
+  {
     "id": "910011",
     "name": "超級可愛♪海洋潛水",
     "rarity": "inherit",
@@ -35069,6 +35524,59 @@
     ]
   },
   {
+    "id": "911021",
+    "name": "ケ・ピアチェーヴォレ！",
+    "rarity": "inherit",
+    "group": 11102,
+    "type": "speed",
+    "sp": 200,
+    "invokes": [
+      {
+        "skillId": "911021",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_rate",
+              "operator": ">=",
+              "value": 50
+            },
+            {
+              "type": "order_rate_in50_continue",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 1500
+          }
+        ],
+        "duration": 3.0
+      }
+    ],
+    "info": [
+      "レース後半まで前方をキープしていると終盤の最終直線で速度がわずかに上がる",
+      "「距離割合>=50、順位率50以前維持（チャンミ～5/LoH～6）」の後「終盤、最終直線」、目標速度1500、持続3.0"
+    ]
+  },
+  {
     "id": "911041",
     "name": "堅定一筆",
     "rarity": "inherit",
@@ -35528,6 +36036,55 @@
       "残り1000ｍ地点で後方だと少しの間ちょっと前に出る、長距離ならその後終盤のコーナーで追い抜いていた場合最終直線で短い間速度がわずかに上がる",
       "「順位率50以上（チャンミ5～/LoH6～）、残り距離999～1001」、現在速度500、持続2.4",
       "「長距離、終盤、コーナー、追い抜き、上記効果発動後」の後「最終直線」、目標速度1500、持続1.8"
+    ]
+  },
+  {
+    "id": "911241",
+    "name": "暁霞を拓き、朝を掴む",
+    "rarity": "inherit",
+    "group": 11124,
+    "type": "speed",
+    "sp": 200,
+    "invokes": [
+      {
+        "skillId": "911241",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_finalcorner_laterhalf",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 500
+          }
+        ],
+        "duration": 1.8
+      }
+    ],
+    "info": [
+      "終盤の最終コーナー後半に前方にいると短い間ちょっと前に出る＜作戦・先行＞",
+      "「先行、終盤、最終コーナー後半、順位率50以下（チャンミ～5/LoH～6）」、現在速度500、持続1.8"
     ]
   },
   {
@@ -36090,6 +36647,55 @@
       "在中距離或長距離競賽的最後彎道之後 從隊列後方準備追過對手時，速度 略微上升，起跑時若有所延遲則稍微上升",
       "「中距離、最終コーナー以降、追い抜きモード、順位率50以上（チャンミ5～/LoH6～）、出遅れ」または「長距離、最終コーナー以降、追い抜きモード、順位率50以上（チャンミ5～/LoH6～）、出遅れ」、目標速度2500、持続3.0",
       "「中距離、最終コーナー以降、追い抜きモード、順位率50以上（チャンミ5～/LoH6～）」または「長距離、最終コーナー以降、追い抜きモード、順位率50以上（チャンミ5～/LoH6～）」、目標速度1500、持続3.0"
+    ]
+  },
+  {
+    "id": "920101",
+    "name": "Have S'more Love!",
+    "rarity": "inherit",
+    "group": 12010,
+    "type": "speed",
+    "sp": 200,
+    "invokes": [
+      {
+        "skillId": "920101",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            },
+            {
+              "type": "order_rate",
+              "operator": ">=",
+              "value": 20
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 70
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 1500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "中盤が迫ったどこかで中団にいると少しの間速度がわずかに上がる＜作戦・先行＞",
+      "「先行、序盤後半ランダム、順位率20～70（チャンミ2～6/LoH3～8）」、目標速度1500、持続2.4"
     ]
   },
   {
@@ -40646,7 +41252,7 @@
     "type": "passive",
     "sp": 330,
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Louve stellaire]シリウスシンボリ",
     "invokes": [
       {
         "skillId": "107002111",
@@ -41381,7 +41987,7 @@
     "type": "passive",
     "sp": 330,
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Inlaid Stories]ゼンノロブロイ",
     "invokes": [
       {
         "skillId": "104702211",
@@ -42941,7 +43547,7 @@
     "type": "passive",
     "sp": 290,
     "activateLot": 0,
-    "holder": "",
+    "holder": "[光彩陸離☆招福衣]コパノリッキー",
     "invokes": [
       {
         "skillId": "109802211",
@@ -44565,7 +45171,7 @@
     "group": 20037,
     "type": "multi",
     "sp": 340,
-    "holder": "",
+    "holder": "[Be♪Witched]シーキングザパール",
     "invokes": [
       {
         "skillId": "104202111",
@@ -45228,7 +45834,7 @@
     "group": 20043,
     "type": "multi",
     "sp": 280,
-    "holder": "",
+    "holder": "[ルミナス☆トワラー]スマートファルコン",
     "invokes": [
       {
         "skillId": "104603111",
@@ -53517,7 +54123,7 @@
     "group": 20068,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Untouchable Eden]メジロラモーヌ",
     "invokes": [
       {
         "skillId": "108602211",
@@ -53995,7 +54601,7 @@
     "group": 20070,
     "type": "multi",
     "sp": 320,
-    "holder": "",
+    "holder": "[With a Twist]タニノギムレット",
     "invokes": [
       {
         "skillId": "108402111",
@@ -55297,7 +55903,7 @@
     "group": 20074,
     "type": "multi",
     "sp": 320,
-    "holder": "",
+    "holder": "[義心の黒焔]フェノーメノ",
     "invokes": [
       {
         "skillId": "112701111",
@@ -57765,7 +58371,7 @@
     "group": 20107,
     "type": "speed",
     "sp": 240,
-    "holder": "",
+    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
     "invokes": [
       {
         "skillId": "100403111",
@@ -58074,6 +58680,110 @@
     "info": [
       "準備追過對手時速度大幅上升 並略微回復持久力＜沙地＞",
       "「ダート、追い抜きモード、経過時間>=5」、目標速度4500、体力150、持続2.4"
+    ]
+  },
+  {
+    "id": "112402111",
+    "name": "風上に立て",
+    "rarity": "evo",
+    "group": 20107,
+    "type": "speed",
+    "sp": 240,
+    "holder": "[暁光]バブルガムフェロー",
+    "invokes": [
+      {
+        "skillId": "112402111",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "is_overtake",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "accumulatetime",
+              "operator": ">=",
+              "value": 5
+            }
+          ],
+          [
+            {
+              "type": "order",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "accumulatetime",
+              "operator": ">=",
+              "value": 5
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            }
+          ],
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      },
+      {
+        "skillId": "112402111",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "is_activate_other_skill_detail",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "track_id",
+              "operator": "==",
+              "value": 10006
+            },
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 2500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "先頭にいるか追い抜こうとすると速度が上がる、東京レース場ならその後終盤の最終直線で少し前に出る＜マイル/中距離＞",
+      "「マイル」または「中距離」の後「追い抜きモード、経過時間>=5」または「順位==1、経過時間>=5」、目標速度3500、持続2.4",
+      "「上記効果発動後、東京レース場、終盤、最終直線」、現在速度2500、持続2.4"
     ]
   },
   {
@@ -58679,7 +59389,7 @@
     "group": 20111,
     "type": "multi",
     "sp": 360,
-    "holder": "",
+    "holder": "[志、高し、強し！]ツルマルツヨシ",
     "invokes": [
       {
         "skillId": "107301211",
@@ -61971,6 +62681,60 @@
     ]
   },
   {
+    "id": "100402121",
+    "name": "渚の激マブウマ娘",
+    "rarity": "evo",
+    "group": 20128,
+    "type": "multi",
+    "sp": 360,
+    "holder": "[飛越☆盛夏騎士]丸善斯基",
+    "invokes": [
+      {
+        "skillId": "100402121",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "slope",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "accumulatetime",
+              "operator": ">=",
+              "value": 10
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "heal",
+            "value": 150
+          },
+          {
+            "type": "speedWithDecel",
+            "value": 3500
+          }
+        ],
+        "duration": 3.0
+      }
+    ],
+    "info": [
+      "上り坂で持久力をわずかに回復し前に出る＜逃げ・マイル＞",
+      "「マイル、逃げ、上り坂、経過時間>=10」、体力150、現在速度3500、持続3.0"
+    ]
+  },
+  {
     "id": "100902111",
     "name": "淘氣女王",
     "rarity": "evo",
@@ -62314,7 +63078,7 @@
     "group": 20131,
     "type": "speed",
     "sp": 420,
-    "holder": "",
+    "holder": "[Inlaid Stories]ゼンノロブロイ",
     "invokes": [
       {
         "skillId": "104702111",
@@ -62471,7 +63235,7 @@
     "group": 20132,
     "type": "speed",
     "sp": 420,
-    "holder": "",
+    "holder": "[志、高し、強し！]ツルマルツヨシ",
     "invokes": [
       {
         "skillId": "107301111",
@@ -64765,7 +65529,7 @@
     "group": 20145,
     "type": "speed",
     "sp": 420,
-    "holder": "",
+    "holder": "[With a Twist]タニノギムレット",
     "invokes": [
       {
         "skillId": "108402211",
@@ -66558,7 +67322,7 @@
     "group": 20160,
     "type": "acceleration",
     "sp": 280,
-    "holder": "",
+    "holder": "[Le beau sommet]ヴィルシーナ",
     "invokes": [
       {
         "skillId": "109001211",
@@ -66913,7 +67677,7 @@
     "type": "passive",
     "sp": 220,
     "activateLot": 0,
-    "holder": "",
+    "holder": "[Like “ZEER”]ネオユニヴァース",
     "invokes": [
       {
         "skillId": "110502211",
@@ -67257,12 +68021,13 @@
             "value": 4500
           }
         ],
+        "cd": 30.0,
         "duration": 3.0
       }
     ],
     "info": [
       "すぐ後ろにウマ娘が長くいると速度がすごく上がる",
-      "「すぐ後ろに相手がいる時間>=3、経過時間>=10」、目標速度4500、持続3.0"
+      "「すぐ後ろに相手がいる時間>=3、経過時間>=10」、目標速度4500、持続3.0（クールタイム短）"
     ]
   },
   {
@@ -68534,7 +69299,7 @@
     "group": 20170,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Future Weaver]シーザリオ",
     "invokes": [
       {
         "skillId": "111001111",
@@ -71462,7 +72227,7 @@
     "group": 20209,
     "type": "multi",
     "sp": 320,
-    "holder": "",
+    "holder": "[紅色塗早駆具足]ノーリーズン",
     "invokes": [
       {
         "skillId": "109601111",
@@ -72026,7 +72791,7 @@
     "group": 20210,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Inherited Hope]エアメサイア",
     "invokes": [
       {
         "skillId": "111101111",
@@ -72798,7 +73563,7 @@
     "group": 20212,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[紅色塗早駆具足]ノーリーズン",
     "invokes": [
       {
         "skillId": "109601211",
@@ -73076,7 +73841,7 @@
     "group": 20215,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[蒼炎の誉]グラスワンダー",
     "invokes": [
       {
         "skillId": "101103111",
@@ -73235,7 +74000,7 @@
     "group": 20215,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Boho Flare]ゴールドシチー",
     "invokes": [
       {
         "skillId": "104003111",
@@ -73953,7 +74718,7 @@
     "group": 20219,
     "type": "heal",
     "sp": 340,
-    "holder": "",
+    "holder": "[Celestial Road]ナリタトップロード",
     "invokes": [
       {
         "skillId": "107702111",
@@ -75690,7 +76455,7 @@
     "group": 20237,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Untouchable Eden]メジロラモーヌ",
     "invokes": [
       {
         "skillId": "108602111",
@@ -76041,7 +76806,7 @@
     "group": 20239,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Tap! Tap! Tap!]タップダンスシチー",
     "invokes": [
       {
         "skillId": "110702211",
@@ -76482,7 +77247,7 @@
     "group": 20240,
     "type": "acceleration",
     "sp": 360,
-    "holder": "",
+    "holder": "[Chevalier fidèle]デュランダル",
     "invokes": [
       {
         "skillId": "112101211",
@@ -76837,7 +77602,7 @@
     "group": 20241,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Sugary Wind]ヤマニンゼファー",
     "invokes": [
       {
         "skillId": "107802211",
@@ -76887,7 +77652,7 @@
     "group": 20241,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[POPPING!]バブルガムフェロー",
     "invokes": [
       {
         "skillId": "112401111",
@@ -77470,7 +78235,7 @@
     "group": 20243,
     "type": "multi",
     "sp": 340,
-    "holder": "",
+    "holder": "[Twinbell Queen]シーザリオ",
     "invokes": [
       {
         "skillId": "111002111",
@@ -78411,7 +79176,7 @@
     "group": 20246,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Tap! Tap! Tap!]タップダンスシチー",
     "invokes": [
       {
         "skillId": "110702111",
@@ -79445,7 +80210,7 @@
     "group": 20248,
     "type": "multi",
     "sp": 360,
-    "holder": "",
+    "holder": "[義心の黒焔]フェノーメノ",
     "invokes": [
       {
         "skillId": "112701211",
@@ -80149,6 +80914,101 @@
     ]
   },
   {
+    "id": "110901121",
+    "name": "やってみせるんだ！！",
+    "rarity": "evo",
+    "group": 20250,
+    "type": "speed",
+    "sp": 360,
+    "holder": "[Dream Successor]萊茵實力",
+    "invokes": [
+      {
+        "skillId": "110901121",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "is_finalcorner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            },
+            {
+              "type": "track_id",
+              "operator": "==",
+              "value": 10006
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          },
+          {
+            "type": "targetSpeed",
+            "value": 2500
+          }
+        ],
+        "duration": 2.4
+      },
+      {
+        "skillId": "110901121",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "is_finalcorner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "最終コーナーで前方にいると速度が上がる、さらに東京レース場なら加えて速度が少し上がる＜先行・マイル＞",
+      "「マイル、先行、最終コーナーランダム、順位率50以下（チャンミ～5/LoH～6）、東京レース場」、目標速度3500、目標速度2500、持続2.4",
+      "「マイル、先行、最終コーナーランダム、順位率50以下（チャンミ～5/LoH～6）」、目標速度3500、持続2.4"
+    ]
+  },
+  {
     "id": "202502",
     "name": "不顧後果",
     "rarity": "normal",
@@ -80322,7 +81182,7 @@
     "group": 20252,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[絢爛花道歌舞く君]ミスターシービー",
     "invokes": [
       {
         "skillId": "105702111",
@@ -80538,7 +81398,7 @@
     "group": 20253,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[衣錦還郷の瑞星]フリオーソ",
     "invokes": [
       {
         "skillId": "107901111",
@@ -81334,7 +82194,7 @@
     "group": 20258,
     "type": "multi",
     "sp": 400,
-    "holder": "",
+    "holder": "[Engineered Victory]ビワハヤヒデ",
     "invokes": [
       {
         "skillId": "102303211",
@@ -81709,6 +82569,53 @@
     ]
   },
   {
+    "id": "110202111",
+    "name": "ムジカ・シンティッランテ",
+    "rarity": "evo",
+    "group": 20260,
+    "type": "speed",
+    "sp": 320,
+    "holder": "[ソナタ・アッラ・メンタ]サウンズオブアース",
+    "invokes": [
+      {
+        "skillId": "110202111",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "activate_count_all",
+              "operator": ">=",
+              "value": 13
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 1500
+          },
+          {
+            "type": "speedWithDecel",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中にスキルを13回発動すると前に出て、さらに自身を含むチームメンバーがわずかに前に出る＜中距離＞",
+      "「中距離、スキル発動回数>=13」、チームメンバー全員[現在速度1500]、現在速度3500、持続2.4"
+    ],
+    "description": [
+      "他者に対する効果は無視"
+    ]
+  },
+  {
     "id": "110501211",
     "name": "馳騁星海",
     "rarity": "evo",
@@ -81755,7 +82662,7 @@
     "group": 20260,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Like “ZEER”]ネオユニヴァース",
     "invokes": [
       {
         "skillId": "110502111",
@@ -81832,6 +82739,125 @@
     "info": [
       "在競賽中若發動13次技能 會略微向前邁進＜中距離＞",
       "「中距離、スキル発動回数>=13」、現在速度1500、持続2.4"
+    ]
+  },
+  {
+    "id": "202611",
+    "name": "インスピレーション",
+    "rarity": "rare",
+    "group": 20261,
+    "type": "speed",
+    "sp": 360,
+    "invokes": [
+      {
+        "skillId": "202611",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            },
+            {
+              "type": "order_rate",
+              "operator": ">=",
+              "value": 40
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中盤が迫ったとき中団以降にいると速度が上がる＜作戦・差し＞",
+      "「差し、序盤後半ランダム、順位率40以上（チャンミ4～/LoH5～）」、目標速度3500、持続2.4"
+    ]
+  },
+  {
+    "id": "113701111",
+    "name": "ブラッシュアップ！",
+    "rarity": "evo",
+    "group": 20261,
+    "type": "multi",
+    "sp": 360,
+    "holder": "[Miracle Author]キセキ",
+    "invokes": [
+      {
+        "skillId": "113701111",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            },
+            {
+              "type": "is_used_skill_id",
+              "operator": "==",
+              "value": 202051
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 2500
+          },
+          {
+            "type": "heal",
+            "value": 350
+          }
+        ],
+        "duration": 2.4
+      },
+      {
+        "skillId": "113701111",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 4.0
+      }
+    ],
+    "info": [
+      "レース中盤が迫ったときしばらくの間速度が上がる、「大逃げ」が発動していると効果が変わり、持久力を少し回復して速度が少し上がる＜作戦・逃げ＞",
+      "「逃げ、序盤後半ランダム、大逃げ」、目標速度2500、体力350、持続2.4",
+      "「逃げ、序盤後半ランダム」、目標速度3500、持続4.0"
     ]
   },
   {
@@ -82767,7 +83793,7 @@
     "group": 20266,
     "type": "multi",
     "sp": 360,
-    "holder": "",
+    "holder": "[Louve stellaire]シリウスシンボリ",
     "invokes": [
       {
         "skillId": "107002211",
@@ -84545,7 +85571,7 @@
     "group": 20272,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Be♪Witched]シーキングザパール",
     "invokes": [
       {
         "skillId": "104202211",
@@ -84655,7 +85681,7 @@
     "group": 20272,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Le beau sommet]ヴィルシーナ",
     "invokes": [
       {
         "skillId": "109001111",
@@ -84760,7 +85786,7 @@
     "group": 20272,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
     "invokes": [
       {
         "skillId": "111701211",
@@ -85278,7 +86304,7 @@
     "group": 20276,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Sugary Wind]ヤマニンゼファー",
     "invokes": [
       {
         "skillId": "107802111",
@@ -85461,7 +86487,7 @@
     "group": 20277,
     "type": "acceleration",
     "sp": 320,
-    "holder": "",
+    "holder": "[Engineered Victory]ビワハヤヒデ",
     "invokes": [
       {
         "skillId": "102303111",
@@ -86093,7 +87119,7 @@
     "group": 20282,
     "type": "acceleration",
     "sp": 340,
-    "holder": "",
+    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
     "invokes": [
       {
         "skillId": "102403111",
@@ -86403,7 +87429,7 @@
     "group": 20283,
     "type": "multi",
     "sp": 400,
-    "holder": "",
+    "holder": "[ルミナス☆トワラー]スマートファルコン",
     "invokes": [
       {
         "skillId": "104603211",
@@ -87320,7 +88346,7 @@
     "group": 20287,
     "type": "acceleration",
     "sp": 360,
-    "holder": "",
+    "holder": "[総攬]オルフェーヴル",
     "invokes": [
       {
         "skillId": "111501111",
@@ -87478,7 +88504,7 @@
     "group": 20288,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[迷光オーヴァライド]ナリタタイシン",
     "invokes": [
       {
         "skillId": "105003211",
@@ -87782,7 +88808,7 @@
     "group": 20290,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[迷光オーヴァライド]ナリタタイシン",
     "invokes": [
       {
         "skillId": "105003111",
@@ -88036,7 +89062,7 @@
     "group": 20292,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Chevalier fidèle]デュランダル",
     "invokes": [
       {
         "skillId": "112101111",
@@ -88167,7 +89193,7 @@
     "group": 20293,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
     "invokes": [
       {
         "skillId": "111701111",
@@ -88680,7 +89706,7 @@
     "group": 20297,
     "type": "acceleration",
     "sp": 320,
-    "holder": "",
+    "holder": "[絢爛花道歌舞く君]ミスターシービー",
     "invokes": [
       {
         "skillId": "105702211",
@@ -89020,7 +90046,7 @@
     "group": 20298,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[陸離の編纂者]クロノジェネシス",
     "invokes": [
       {
         "skillId": "113301111",
@@ -89583,7 +90609,7 @@
     "group": 20304,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[すまいる・まい・うぇい！]グランアレグリア",
     "invokes": [
       {
         "skillId": "113101111",
@@ -89820,7 +90846,7 @@
     "group": 20305,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Twinbell Queen]シーザリオ",
     "invokes": [
       {
         "skillId": "111002211",
@@ -90934,7 +91960,7 @@
     "group": 20313,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[POPPING!]バブルガムフェロー",
     "invokes": [
       {
         "skillId": "112401211",
@@ -91491,7 +92517,7 @@
     "group": 20317,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Glacialis Vega]アドマイヤベガ",
     "invokes": [
       {
         "skillId": "103302211",
@@ -91640,7 +92666,7 @@
     "group": 20317,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Future Weaver]シーザリオ",
     "invokes": [
       {
         "skillId": "111001211",
@@ -91945,7 +92971,7 @@
     "group": 20320,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
     "invokes": [
       {
         "skillId": "102403211",
@@ -92016,7 +93042,7 @@
     "group": 20320,
     "type": "multi",
     "sp": 360,
-    "holder": "",
+    "holder": "[溶けない砂糖菓子]アストンマーチャン",
     "invokes": [
       {
         "skillId": "108702111",
@@ -92269,7 +93295,7 @@
     "group": 20322,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Celestial Road]ナリタトップロード",
     "invokes": [
       {
         "skillId": "107702211",
@@ -92422,6 +93448,143 @@
     "info": [
       "在競賽中期稍微消耗持久力 使速度稍微上升＜作戰．前列＞",
       "「先行、中盤ランダム」、目標速度2500、体力-200、持続2.4"
+    ]
+  },
+  {
+    "id": "203231",
+    "name": "ハジける闘志",
+    "rarity": "rare",
+    "group": 20323,
+    "type": "speed",
+    "sp": 360,
+    "invokes": [
+      {
+        "skillId": "203231",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中盤が迫ったとき速度が上がる＜作戦・先行＞",
+      "「先行、序盤後半ランダム」、目標速度3500、持続2.4"
+    ]
+  },
+  {
+    "id": "112402211",
+    "name": "ハジける風雲児",
+    "rarity": "evo",
+    "group": 20323,
+    "type": "speed",
+    "sp": 360,
+    "holder": "[暁光]バブルガムフェロー",
+    "invokes": [
+      {
+        "skillId": "112402211",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_laterhalf_random",
+              "operator": "==",
+              "value": 0
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      },
+      {
+        "skillId": "112402211",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "is_activate_other_skill_detail",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "is_activate_other_skill_detail",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "is_last_straight",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 1500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中盤が迫ったとき速度が上がるマイルか中距離レースならその後終盤の最終直線でわずかに前に出る＜作戦・先行＞",
+      "「先行、序盤後半ランダム」、目標速度3500、持続2.4",
+      "「上記効果発動後、マイル、終盤、最終直線」または「上記効果発動後、中距離、終盤、最終直線」、現在速度1500、持続2.4"
     ]
   },
   {
@@ -93070,7 +94233,7 @@
     "group": 20333,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[Inherited Hope]エアメサイア",
     "invokes": [
       {
         "skillId": "111101211",
@@ -93239,7 +94402,7 @@
     "group": 20334,
     "type": "speed",
     "sp": 340,
-    "holder": "",
+    "holder": "[Glacialis Vega]アドマイヤベガ",
     "invokes": [
       {
         "skillId": "103302111",
@@ -93719,7 +94882,7 @@
     "group": 20337,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[蒼炎の誉]グラスワンダー",
     "invokes": [
       {
         "skillId": "101103211",
@@ -94009,7 +95172,7 @@
     "group": 20338,
     "type": "multi",
     "sp": 360,
-    "holder": "",
+    "holder": "[雅号・墨龍]カツラギエース",
     "invokes": [
       {
         "skillId": "110402111",
@@ -94181,7 +95344,7 @@
     "group": 20339,
     "type": "speed",
     "sp": 340,
-    "holder": "",
+    "holder": "[雅号・墨龍]カツラギエース",
     "invokes": [
       {
         "skillId": "110402211",
@@ -94789,7 +95952,7 @@
     "group": 20344,
     "type": "acceleration",
     "sp": 340,
-    "holder": "",
+    "holder": "[陸離の編纂者]クロノジェネシス",
     "invokes": [
       {
         "skillId": "113301211",
@@ -95008,7 +96171,7 @@
     "group": 20346,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
     "invokes": [
       {
         "skillId": "100403211",
@@ -95162,7 +96325,7 @@
     "group": 20347,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[衣錦還郷の瑞星]フリオーソ",
     "invokes": [
       {
         "skillId": "107901211",
@@ -95332,7 +96495,7 @@
     "group": 20348,
     "type": "acceleration",
     "sp": 340,
-    "holder": "",
+    "holder": "[溶けない砂糖菓子]アストンマーチャン",
     "invokes": [
       {
         "skillId": "108702211",
@@ -95696,7 +96859,7 @@
     "group": 20351,
     "type": "speed",
     "sp": 400,
-    "holder": "",
+    "holder": "[総攬]オルフェーヴル",
     "invokes": [
       {
         "skillId": "111501211",
@@ -95767,7 +96930,7 @@
     "group": 20351,
     "type": "multi",
     "sp": 400,
-    "holder": "",
+    "holder": "[総攬]オルフェーヴル",
     "invokes": [
       {
         "skillId": "111501221",
@@ -96030,7 +97193,7 @@
     "group": 20354,
     "type": "acceleration",
     "sp": 320,
-    "holder": "",
+    "holder": "[すまいる・まい・うぇい！]グランアレグリア",
     "invokes": [
       {
         "skillId": "113101211",
@@ -96634,7 +97797,7 @@
     "group": 20361,
     "type": "speed",
     "sp": 340,
-    "holder": "",
+    "holder": "[光彩陸離☆招福衣]コパノリッキー",
     "invokes": [
       {
         "skillId": "109802111",
@@ -96872,7 +98035,7 @@
     "group": 20362,
     "type": "speed",
     "sp": 320,
-    "holder": "",
+    "holder": "[9927 Wishes]ラヴズオンリーユー",
     "invokes": [
       {
         "skillId": "113201111",
@@ -97005,7 +98168,7 @@
     "group": 20363,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[9927 Wishes]ラヴズオンリーユー",
     "invokes": [
       {
         "skillId": "113201211",
@@ -97562,7 +98725,7 @@
     "group": 20367,
     "type": "speed",
     "sp": 360,
-    "holder": "",
+    "holder": "[Boho Flare]ゴールドシチー",
     "invokes": [
       {
         "skillId": "104003211",
@@ -97802,6 +98965,55 @@
     "info": [
       "レース中盤に中団以降にいると速度がわずかに上がる＜差し・中距離＞",
       "「中盤ランダム、差し、中距離、順位率40以上（チャンミ4～/LoH5～）」、目標速度1500、持続3.0"
+    ]
+  },
+  {
+    "id": "203701",
+    "name": "快刀乱麻",
+    "rarity": "rare",
+    "group": 20370,
+    "type": "speed",
+    "sp": 320,
+    "invokes": [
+      {
+        "skillId": "203701",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            },
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_firsthalf_random",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "lastspurt",
+              "operator": "==",
+              "value": 2
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 3500
+          }
+        ],
+        "duration": 3.0
+      }
+    ],
+    "info": [
+      "レース終盤始めの方で余力十分なら前に出る＜先行・長距離＞",
+      "「長距離、先行、終盤前1/4ランダム、最大スパート」、現在速度3500、持続3.0"
     ]
   },
   {
@@ -101293,6 +102505,89 @@
     ]
   },
   {
+    "id": "110202211",
+    "name": "ドーノ・ディ・フローラ！",
+    "rarity": "evo",
+    "group": 20399,
+    "type": "speed",
+    "sp": 360,
+    "holder": "[ソナタ・アッラ・メンタ]サウンズオブアース",
+    "invokes": [
+      {
+        "skillId": "110202211",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "distance_rate_after_random",
+              "operator": "==",
+              "value": 50
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 1500
+          },
+          {
+            "type": "speedWithDecel",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      },
+      {
+        "skillId": "110202211",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "distance_rate_after_random",
+              "operator": "==",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "speedWithDecel",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース後半に前に出るさらに中距離レースでスキル発動時前方にいると自身を含むチームメンバーがわずかに前に出る＜作戦・先行＞",
+      "「先行、距離50%以降、中距離、順位率50以下（チャンミ～5/LoH～6）」、チームメンバー全員[現在速度1500]、現在速度3500、持続2.4",
+      "「先行、距離50%以降」、現在速度3500、持続2.4"
+    ],
+    "description": [
+      "他者に対する効果は無視"
+    ]
+  },
+  {
     "id": "203992",
     "name": "目覚めの時",
     "rarity": "normal",
@@ -102442,6 +103737,145 @@
     ]
   },
   {
+    "id": "204021",
+    "name": "一世一代",
+    "rarity": "rare",
+    "group": 20402,
+    "type": "acceleration",
+    "sp": 320,
+    "invokes": [
+      {
+        "skillId": "204021",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            },
+            {
+              "type": "phase_firstquarter_random",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "order_rate",
+              "operator": ">=",
+              "value": 40
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "acceleration",
+            "value": 4000
+          }
+        ],
+        "duration": 1.2
+      }
+    ],
+    "info": [
+      "レース終盤始めの方早めに中団以降にいると加速力が上がる＜差し・長距離＞",
+      "「差し、長距離、終盤前1/8ランダム、順位率40以上（チャンミ4～/LoH5～）」、加速4000、持続1.2"
+    ]
+  },
+  {
+    "id": "113701211",
+    "name": "緊急重版",
+    "rarity": "evo",
+    "group": 20402,
+    "type": "multi",
+    "sp": 320,
+    "holder": "[Miracle Author]キセキ",
+    "invokes": [
+      {
+        "skillId": "113701211",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "phase_firstquarter_random",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "order",
+              "operator": "<=",
+              "value": 2
+            },
+            {
+              "type": "course_distance",
+              "operator": ">=",
+              "value": 2000
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "acceleration",
+            "value": 4000
+          },
+          {
+            "type": "speedWithDecel",
+            "value": 2500
+          }
+        ],
+        "duration": 1.2
+      },
+      {
+        "skillId": "113701211",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "phase_firstquarter_random",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            },
+            {
+              "type": "course_distance",
+              "operator": ">=",
+              "value": 2000
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "acceleration",
+            "value": 4000
+          }
+        ],
+        "duration": 1.2
+      }
+    ],
+    "info": [
+      "2000m以上のレースならレース終盤始めの方早めに前方にいると加速力が上がる、さらにスキル発動時2番手以内だと少し前に出る＜作戦・逃げ＞ ",
+      "「逃げ、終盤前1/8ランダム、順位<=2、距離>=2000」、加速4000、現在速度2500、持続1.2",
+      "「逃げ、終盤前1/8ランダム、順位率50以下（チャンミ～5/LoH～6）、距離>=2000」、加速4000、持続1.2"
+    ]
+  },
+  {
     "id": "204022",
     "name": "ここ一番",
     "rarity": "normal",
@@ -103161,6 +104595,161 @@
     ]
   },
   {
+    "id": "204161",
+    "name": "猪突猛進",
+    "rarity": "rare",
+    "group": 20416,
+    "type": "acceleration",
+    "sp": 360,
+    "invokes": [
+      {
+        "skillId": "204161",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "remain_distance",
+              "operator": "<=",
+              "value": 600
+            },
+            {
+              "type": "order",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "phase",
+              "operator": ">=",
+              "value": 2
+            },
+            {
+              "type": "remain_distance",
+              "operator": "<=",
+              "value": 600
+            },
+            {
+              "type": "is_overtake",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "acceleration",
+            "value": 4000
+          }
+        ],
+        "duration": 1.5
+      }
+    ],
+    "info": [
+      "終盤かつ残り600mを切っているとき先頭にいるか前方で追い抜こうとすると加速力が上がる＜逃げ/先行＞",
+      "「逃げ」または「先行」の後「終盤、残り距離<=600、順位==1」または「終盤、残り距離<=600、追い抜きモード、順位率50以下（チャンミ～5/LoH～6）」、加速4000、持続1.5"
+    ]
+  },
+  {
+    "id": "101003211",
+    "name": "Sheep Stampede!",
+    "rarity": "evo",
+    "group": 20416,
+    "type": "acceleration",
+    "sp": 360,
+    "holder": "[Baa Baa Patisserie]タイキシャトル",
+    "invokes": [
+      {
+        "skillId": "101003211",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "phase_firstquarter",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "order",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "phase_firstquarter",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "is_overtake",
+              "operator": "==",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "type": "phase_firstquarter_random",
+              "operator": "==",
+              "value": 2
+            }
+          ]
+        ],
+        "preConditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "acceleration",
+            "value": 4000
+          }
+        ],
+        "duration": 1.5
+      }
+    ],
+    "info": [
+      "レース終盤始めの早めに先頭にいるか追い抜こうとするとき、または終盤始めの方早めに加速力が上がる＜先行・マイル＞",
+      "「先行、マイル」の後「終盤前1/8、順位==1」または「終盤前1/8、追い抜きモード」または「終盤前1/8ランダム」、加速4000、持続1.5"
+    ]
+  },
+  {
     "id": "204162",
     "name": "押しの一手",
     "rarity": "normal",
@@ -103240,6 +104829,367 @@
     "info": [
       "終盤かつ残り600mを切っているとき先頭にいるか前方で追い抜こうとすると加速力がわずかに上がる＜逃げ/先行＞",
       "「逃げ」または「先行」の後「終盤、残り距離<=600、順位==1」または「終盤、残り距離<=600、追い抜きモード、順位率50以下（チャンミ～5/LoH～6）」、加速2000、持続1.5"
+    ]
+  },
+  {
+    "id": "204131",
+    "name": "有志竟成",
+    "rarity": "rare",
+    "group": 20413,
+    "type": "speed",
+    "sp": 360,
+    "invokes": [
+      {
+        "skillId": "204131",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "phase_random",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 3500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中盤に速度が上がる＜作戦・差し＞",
+      "「差し、中盤ランダム」、目標速度3500、持続2.4"
+    ]
+  },
+  {
+    "id": "204132",
+    "name": "大志を抱いて",
+    "rarity": "normal",
+    "group": 20413,
+    "type": "speed",
+    "sp": 180,
+    "invokes": [
+      {
+        "skillId": "204132",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 3
+            },
+            {
+              "type": "phase_random",
+              "operator": "==",
+              "value": 1
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 1500
+          }
+        ],
+        "duration": 2.4
+      }
+    ],
+    "info": [
+      "レース中盤に速度がわずかに上がる＜作戦・差し＞",
+      "「差し、中盤ランダム」、目標速度1500、持続2.4"
+    ]
+  },
+  {
+    "id": "204151",
+    "name": "ぶっちぎり！",
+    "rarity": "rare",
+    "group": 20415,
+    "type": "speed",
+    "sp": 360,
+    "invokes": [
+      {
+        "skillId": "204151",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_corner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 2500
+          }
+        ],
+        "duration": 4.0
+      }
+    ],
+    "info": [
+      "レース中盤のコーナーで前方にいるとしばらくの間速度が少し上がる＜作戦・先行＞",
+      "「先行、中盤コーナーランダム、順位率50以下（チャンミ～5/LoH～6）」、目標速度2500、持続4.0"
+    ]
+  },
+  {
+    "id": "101003111",
+    "name": "飛び出せSheepy!",
+    "rarity": "evo",
+    "group": 20415,
+    "type": "speed",
+    "sp": 360,
+    "holder": "[Baa Baa Patisserie]タイキシャトル",
+    "invokes": [
+      {
+        "skillId": "101003111",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_corner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 4500
+          },
+          {
+            "type": "heal",
+            "value": -200
+          }
+        ],
+        "duration": 4.0
+      },
+      {
+        "skillId": "101003111",
+        "index": 2,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_corner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 2500
+          }
+        ],
+        "duration": 4.0
+      }
+    ],
+    "info": [
+      "レース中盤のコーナーで前方にいるとしばらくの間速度が少し上がる、マイルレースなら持久力を少し使ってしばらくの間すごく上がる＜作戦・先行＞",
+      "「先行、中盤コーナーランダム、順位率50以下（チャンミ～5/LoH～6）、マイル」、目標速度4500、体力-200、持続4.0",
+      "「先行、中盤コーナーランダム、順位率50以下（チャンミ～5/LoH～6）」、目標速度2500、持続4.0"
+    ]
+  },
+  {
+    "id": "204152",
+    "name": "前進あるのみ",
+    "rarity": "normal",
+    "group": 20415,
+    "type": "speed",
+    "sp": 180,
+    "invokes": [
+      {
+        "skillId": "204152",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "running_style",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "phase_corner_random",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "order_rate",
+              "operator": "<=",
+              "value": 50
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 500
+          }
+        ],
+        "duration": 4.0
+      }
+    ],
+    "info": [
+      "レース中盤のコーナーで前方にいるとしばらくの間速度がちょっと上がる＜作戦・先行＞",
+      "「先行、中盤コーナーランダム、順位率50以下（チャンミ～5/LoH～6）」、目標速度500、持続4.0"
+    ]
+  },
+  {
+    "id": "204172",
+    "name": "溌剌",
+    "rarity": "normal",
+    "group": 20417,
+    "type": "speed",
+    "sp": 170,
+    "invokes": [
+      {
+        "skillId": "204172",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 2
+            },
+            {
+              "type": "is_lastspurt",
+              "operator": "==",
+              "value": 1
+            },
+            {
+              "type": "phase_firsthalf_random",
+              "operator": "==",
+              "value": 3
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "targetSpeed",
+            "value": 1500
+          }
+        ],
+        "duration": 3.0
+      }
+    ],
+    "info": [
+      "ラストスパートの最中に速度がわずかに上がる＜マイル＞",
+      "「マイル、ラストスパート、終盤1/2～3/4ランダム」、目標速度1500、持続3.0"
+    ]
+  },
+  {
+    "id": "204202",
+    "name": "戦略家",
+    "rarity": "normal",
+    "group": 20420,
+    "type": "passive",
+    "sp": 180,
+    "activateLot": 0,
+    "invokes": [
+      {
+        "skillId": "204202",
+        "index": 1,
+        "conditions": [
+          [
+            {
+              "type": "base_speed",
+              "operator": ">=",
+              "value": 1000
+            },
+            {
+              "type": "base_power",
+              "operator": ">=",
+              "value": 1000
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 3
+            }
+          ],
+          [
+            {
+              "type": "base_speed",
+              "operator": ">=",
+              "value": 1000
+            },
+            {
+              "type": "base_power",
+              "operator": ">=",
+              "value": 1000
+            },
+            {
+              "type": "distance_type",
+              "operator": "==",
+              "value": 4
+            }
+          ]
+        ],
+        "effects": [
+          {
+            "type": "passiveSpeed",
+            "value": 200000
+          },
+          {
+            "type": "passivePower",
+            "value": 200000
+          }
+        ],
+        "cd": 0.0
+      }
+    ],
+    "info": [
+      "スピードとパワーが十分に高いとスピードとパワーがわずかに上がる＜中距離/長距離＞",
+      "「基礎スピード>=1000、基礎パワー>=1000、中距離」または「基礎スピード>=1000、基礎パワー>=1000、長距離」、スピード20、パワー20、持続0"
     ]
   },
   {
