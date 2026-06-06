@@ -1061,7 +1061,7 @@
     "group": 1073,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[志、高し、強し！]ツルマルツヨシ",
+    "holder": "[志向高遠，意志堅強！]鶴丸剛志",
     "invokes": [
       {
         "skillId": "10731",
@@ -5685,7 +5685,7 @@
     "group": 10073,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[志、高し、強し！]ツルマルツヨシ",
+    "holder": "[志向高遠，意志堅強！]鶴丸剛志",
     "invokes": [
       {
         "skillId": "100731",
@@ -6089,7 +6089,7 @@
     "group": 10079,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[衣錦還郷の瑞星]フリオーソ",
+    "holder": "[衣錦還鄉的吉祥之星]狂怒樂章",
     "invokes": [
       {
         "skillId": "100791",
@@ -8794,7 +8794,7 @@
     "group": 10110,
     "type": "multi",
     "activateLot": 0,
-    "holder": "[Future Weaver]シーザリオ",
+    "holder": "[Future Weaver]西沙里奧",
     "invokes": [
       {
         "skillId": "101101",
@@ -8897,7 +8897,7 @@
     "group": 10111,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Inherited Hope]エアメサイア",
+    "holder": "[Inherited Hope]空中救主",
     "invokes": [
       {
         "skillId": "101111",
@@ -9182,7 +9182,7 @@
     "group": 10115,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[総攬]オルフェーヴル",
+    "holder": "[總攬]黃金巨匠",
     "invokes": [
       {
         "skillId": "101151",
@@ -9380,7 +9380,7 @@
     "group": 10117,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
+    "holder": "[Dramatic・Chuchu]凱旋芭蕾",
     "invokes": [
       {
         "skillId": "101171",
@@ -9755,7 +9755,7 @@
     "group": 10121,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Chevalier fidèle]デュランダル",
+    "holder": "[Chevalier fidèle]多旺達",
     "invokes": [
       {
         "skillId": "101211",
@@ -9901,7 +9901,7 @@
     "group": 10124,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[POPPING!]バブルガムフェロー",
+    "holder": "[POPPING!]吹波糖",
     "invokes": [
       {
         "skillId": "101241",
@@ -12832,7 +12832,7 @@
     "group": 11033,
     "type": "acceleration",
     "activateLot": 0,
-    "holder": "[Glacialis Vega]アドマイヤベガ",
+    "holder": "[Glacialis Vega]愛慕織姬",
     "invokes": [
       {
         "skillId": "110331",
@@ -13433,7 +13433,7 @@
     "group": 11042,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Be♪Witched]シーキングザパール",
+    "holder": "[Be♪Witched]採珠",
     "invokes": [
       {
         "skillId": "110421",
@@ -13765,7 +13765,7 @@
     "group": 11047,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Inlaid Stories]ゼンノロブロイ",
+    "holder": "[Inlaid Stories]荒漠英雄",
     "invokes": [
       {
         "skillId": "110471",
@@ -14527,7 +14527,7 @@
     "group": 11057,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[絢爛花道歌舞く君]ミスターシービー",
+    "holder": "[絢爛花道歌舞的你]千明代表",
     "invokes": [
       {
         "skillId": "110571",
@@ -15381,7 +15381,7 @@
     "group": 11070,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Louve stellaire]シリウスシンボリ",
+    "holder": "[Louve stellaire]天狼象徵",
     "invokes": [
       {
         "skillId": "110701",
@@ -15824,7 +15824,7 @@
     "group": 11077,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Celestial Road]ナリタトップロード",
+    "holder": "[Celestial Road]成田路",
     "invokes": [
       {
         "skillId": "110771",
@@ -15933,7 +15933,7 @@
     "group": 11078,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Sugary Wind]ヤマニンゼファー",
+    "holder": "[Sugary Wind]也文攝輝",
     "invokes": [
       {
         "skillId": "110781",
@@ -16213,7 +16213,7 @@
     "group": 11084,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[With a Twist]タニノギムレット",
+    "holder": "[With a Twist]谷野美酒",
     "invokes": [
       {
         "skillId": "110841",
@@ -16471,7 +16471,7 @@
     "group": 11087,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[溶けない砂糖菓子]アストンマーチャン",
+    "holder": "[無法融化的糖果]真弓快車",
     "invokes": [
       {
         "skillId": "110871",
@@ -17321,7 +17321,7 @@
     "group": 11104,
     "type": "multi",
     "activateLot": 0,
-    "holder": "[雅号・墨龍]カツラギエース",
+    "holder": "[雅號・墨龍]葛城王牌",
     "invokes": [
       {
         "skillId": "111041",
@@ -17401,7 +17401,7 @@
     "group": 11105,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Like “ZEER”]ネオユニヴァース",
+    "holder": "[Like “ZEER”]新宇宙",
     "invokes": [
       {
         "skillId": "111051",
@@ -18352,7 +18352,7 @@
     "group": 12004,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
+    "holder": "[祝福長壽的神速天女]丸善斯基",
     "invokes": [
       {
         "skillId": "120041",
@@ -18821,7 +18821,7 @@
     "group": 12011,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[蒼炎の誉]グラスワンダー",
+    "holder": "[蒼炎之譽]草上飛",
     "invokes": [
       {
         "skillId": "120111",
@@ -19025,7 +19025,7 @@
     "group": 12023,
     "type": "speed",
     "activateLot": 0,
-    "holder": "[Engineered Victory]ビワハヤヒデ",
+    "holder": "[Engineered Victory]琵琶晨光",
     "invokes": [
       {
         "skillId": "120231",
@@ -19120,7 +19120,7 @@
     "group": 12024,
     "type": "multi",
     "activateLot": 0,
-    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
+    "holder": "[Rocking☆MewMeow]重砲",
     "invokes": [
       {
         "skillId": "120241",
@@ -20055,7 +20055,7 @@
     "group": 12050,
     "type": "multi",
     "activateLot": 0,
-    "holder": "[迷光オーヴァライド]ナリタタイシン",
+    "holder": "[迷光Override]成田大進",
     "invokes": [
       {
         "skillId": "120501",
@@ -41252,7 +41252,7 @@
     "type": "passive",
     "sp": 330,
     "activateLot": 0,
-    "holder": "[Louve stellaire]シリウスシンボリ",
+    "holder": "[Louve stellaire]天狼象徵",
     "invokes": [
       {
         "skillId": "107002111",
@@ -41987,7 +41987,7 @@
     "type": "passive",
     "sp": 330,
     "activateLot": 0,
-    "holder": "[Inlaid Stories]ゼンノロブロイ",
+    "holder": "[Inlaid Stories]荒漠英雄",
     "invokes": [
       {
         "skillId": "104702211",
@@ -45171,7 +45171,7 @@
     "group": 20037,
     "type": "multi",
     "sp": 340,
-    "holder": "[Be♪Witched]シーキングザパール",
+    "holder": "[Be♪Witched]採珠",
     "invokes": [
       {
         "skillId": "104202111",
@@ -54601,7 +54601,7 @@
     "group": 20070,
     "type": "multi",
     "sp": 320,
-    "holder": "[With a Twist]タニノギムレット",
+    "holder": "[With a Twist]谷野美酒",
     "invokes": [
       {
         "skillId": "108402111",
@@ -58371,7 +58371,7 @@
     "group": 20107,
     "type": "speed",
     "sp": 240,
-    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
+    "holder": "[祝福長壽的神速天女]丸善斯基",
     "invokes": [
       {
         "skillId": "100403111",
@@ -59389,7 +59389,7 @@
     "group": 20111,
     "type": "multi",
     "sp": 360,
-    "holder": "[志、高し、強し！]ツルマルツヨシ",
+    "holder": "[志向高遠，意志堅強！]鶴丸剛志",
     "invokes": [
       {
         "skillId": "107301211",
@@ -63078,7 +63078,7 @@
     "group": 20131,
     "type": "speed",
     "sp": 420,
-    "holder": "[Inlaid Stories]ゼンノロブロイ",
+    "holder": "[Inlaid Stories]荒漠英雄",
     "invokes": [
       {
         "skillId": "104702111",
@@ -63235,7 +63235,7 @@
     "group": 20132,
     "type": "speed",
     "sp": 420,
-    "holder": "[志、高し、強し！]ツルマルツヨシ",
+    "holder": "[志向高遠，意志堅強！]鶴丸剛志",
     "invokes": [
       {
         "skillId": "107301111",
@@ -65529,7 +65529,7 @@
     "group": 20145,
     "type": "speed",
     "sp": 420,
-    "holder": "[With a Twist]タニノギムレット",
+    "holder": "[With a Twist]谷野美酒",
     "invokes": [
       {
         "skillId": "108402211",
@@ -67677,7 +67677,7 @@
     "type": "passive",
     "sp": 220,
     "activateLot": 0,
-    "holder": "[Like “ZEER”]ネオユニヴァース",
+    "holder": "[Like “ZEER”]新宇宙",
     "invokes": [
       {
         "skillId": "110502211",
@@ -69299,7 +69299,7 @@
     "group": 20170,
     "type": "speed",
     "sp": 320,
-    "holder": "[Future Weaver]シーザリオ",
+    "holder": "[Future Weaver]西沙里奧",
     "invokes": [
       {
         "skillId": "111001111",
@@ -72791,7 +72791,7 @@
     "group": 20210,
     "type": "speed",
     "sp": 320,
-    "holder": "[Inherited Hope]エアメサイア",
+    "holder": "[Inherited Hope]空中救主",
     "invokes": [
       {
         "skillId": "111101111",
@@ -73841,7 +73841,7 @@
     "group": 20215,
     "type": "speed",
     "sp": 320,
-    "holder": "[蒼炎の誉]グラスワンダー",
+    "holder": "[蒼炎之譽]草上飛",
     "invokes": [
       {
         "skillId": "101103111",
@@ -74718,7 +74718,7 @@
     "group": 20219,
     "type": "heal",
     "sp": 340,
-    "holder": "[Celestial Road]ナリタトップロード",
+    "holder": "[Celestial Road]成田路",
     "invokes": [
       {
         "skillId": "107702111",
@@ -77247,7 +77247,7 @@
     "group": 20240,
     "type": "acceleration",
     "sp": 360,
-    "holder": "[Chevalier fidèle]デュランダル",
+    "holder": "[Chevalier fidèle]多旺達",
     "invokes": [
       {
         "skillId": "112101211",
@@ -77602,7 +77602,7 @@
     "group": 20241,
     "type": "speed",
     "sp": 360,
-    "holder": "[Sugary Wind]ヤマニンゼファー",
+    "holder": "[Sugary Wind]也文攝輝",
     "invokes": [
       {
         "skillId": "107802211",
@@ -77652,7 +77652,7 @@
     "group": 20241,
     "type": "speed",
     "sp": 360,
-    "holder": "[POPPING!]バブルガムフェロー",
+    "holder": "[POPPING!]吹波糖",
     "invokes": [
       {
         "skillId": "112401111",
@@ -81182,7 +81182,7 @@
     "group": 20252,
     "type": "speed",
     "sp": 360,
-    "holder": "[絢爛花道歌舞く君]ミスターシービー",
+    "holder": "[絢爛花道歌舞的你]千明代表",
     "invokes": [
       {
         "skillId": "105702111",
@@ -81398,7 +81398,7 @@
     "group": 20253,
     "type": "speed",
     "sp": 360,
-    "holder": "[衣錦還郷の瑞星]フリオーソ",
+    "holder": "[衣錦還鄉的吉祥之星]狂怒樂章",
     "invokes": [
       {
         "skillId": "107901111",
@@ -82194,7 +82194,7 @@
     "group": 20258,
     "type": "multi",
     "sp": 400,
-    "holder": "[Engineered Victory]ビワハヤヒデ",
+    "holder": "[Engineered Victory]琵琶晨光",
     "invokes": [
       {
         "skillId": "102303211",
@@ -82662,7 +82662,7 @@
     "group": 20260,
     "type": "speed",
     "sp": 320,
-    "holder": "[Like “ZEER”]ネオユニヴァース",
+    "holder": "[Like “ZEER”]新宇宙",
     "invokes": [
       {
         "skillId": "110502111",
@@ -83793,7 +83793,7 @@
     "group": 20266,
     "type": "multi",
     "sp": 360,
-    "holder": "[Louve stellaire]シリウスシンボリ",
+    "holder": "[Louve stellaire]天狼象徵",
     "invokes": [
       {
         "skillId": "107002211",
@@ -85571,7 +85571,7 @@
     "group": 20272,
     "type": "speed",
     "sp": 360,
-    "holder": "[Be♪Witched]シーキングザパール",
+    "holder": "[Be♪Witched]採珠",
     "invokes": [
       {
         "skillId": "104202211",
@@ -85786,7 +85786,7 @@
     "group": 20272,
     "type": "speed",
     "sp": 360,
-    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
+    "holder": "[Dramatic・Chuchu]凱旋芭蕾",
     "invokes": [
       {
         "skillId": "111701211",
@@ -86304,7 +86304,7 @@
     "group": 20276,
     "type": "speed",
     "sp": 360,
-    "holder": "[Sugary Wind]ヤマニンゼファー",
+    "holder": "[Sugary Wind]也文攝輝",
     "invokes": [
       {
         "skillId": "107802111",
@@ -86487,7 +86487,7 @@
     "group": 20277,
     "type": "acceleration",
     "sp": 320,
-    "holder": "[Engineered Victory]ビワハヤヒデ",
+    "holder": "[Engineered Victory]琵琶晨光",
     "invokes": [
       {
         "skillId": "102303111",
@@ -87119,7 +87119,7 @@
     "group": 20282,
     "type": "acceleration",
     "sp": 340,
-    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
+    "holder": "[Rocking☆MewMeow]重砲",
     "invokes": [
       {
         "skillId": "102403111",
@@ -88346,7 +88346,7 @@
     "group": 20287,
     "type": "acceleration",
     "sp": 360,
-    "holder": "[総攬]オルフェーヴル",
+    "holder": "[總攬]黃金巨匠",
     "invokes": [
       {
         "skillId": "111501111",
@@ -88504,7 +88504,7 @@
     "group": 20288,
     "type": "speed",
     "sp": 360,
-    "holder": "[迷光オーヴァライド]ナリタタイシン",
+    "holder": "[迷光Override]成田大進",
     "invokes": [
       {
         "skillId": "105003211",
@@ -88808,7 +88808,7 @@
     "group": 20290,
     "type": "speed",
     "sp": 360,
-    "holder": "[迷光オーヴァライド]ナリタタイシン",
+    "holder": "[迷光Override]成田大進",
     "invokes": [
       {
         "skillId": "105003111",
@@ -89062,7 +89062,7 @@
     "group": 20292,
     "type": "speed",
     "sp": 320,
-    "holder": "[Chevalier fidèle]デュランダル",
+    "holder": "[Chevalier fidèle]多旺達",
     "invokes": [
       {
         "skillId": "112101111",
@@ -89193,7 +89193,7 @@
     "group": 20293,
     "type": "speed",
     "sp": 360,
-    "holder": "[ドラマティック・チュチュ]ウインバリアシオン",
+    "holder": "[Dramatic・Chuchu]凱旋芭蕾",
     "invokes": [
       {
         "skillId": "111701111",
@@ -89706,7 +89706,7 @@
     "group": 20297,
     "type": "acceleration",
     "sp": 320,
-    "holder": "[絢爛花道歌舞く君]ミスターシービー",
+    "holder": "[絢爛花道歌舞的你]千明代表",
     "invokes": [
       {
         "skillId": "105702211",
@@ -91960,7 +91960,7 @@
     "group": 20313,
     "type": "speed",
     "sp": 360,
-    "holder": "[POPPING!]バブルガムフェロー",
+    "holder": "[POPPING!]吹波糖",
     "invokes": [
       {
         "skillId": "112401211",
@@ -92517,7 +92517,7 @@
     "group": 20317,
     "type": "speed",
     "sp": 320,
-    "holder": "[Glacialis Vega]アドマイヤベガ",
+    "holder": "[Glacialis Vega]愛慕織姬",
     "invokes": [
       {
         "skillId": "103302211",
@@ -92666,7 +92666,7 @@
     "group": 20317,
     "type": "speed",
     "sp": 320,
-    "holder": "[Future Weaver]シーザリオ",
+    "holder": "[Future Weaver]西沙里奧",
     "invokes": [
       {
         "skillId": "111001211",
@@ -92971,7 +92971,7 @@
     "group": 20320,
     "type": "speed",
     "sp": 360,
-    "holder": "[ろっきん☆MewMeow]マヤノトップガン",
+    "holder": "[Rocking☆MewMeow]重砲",
     "invokes": [
       {
         "skillId": "102403211",
@@ -93042,7 +93042,7 @@
     "group": 20320,
     "type": "multi",
     "sp": 360,
-    "holder": "[溶けない砂糖菓子]アストンマーチャン",
+    "holder": "[無法融化的糖果]真弓快車",
     "invokes": [
       {
         "skillId": "108702111",
@@ -93295,7 +93295,7 @@
     "group": 20322,
     "type": "speed",
     "sp": 320,
-    "holder": "[Celestial Road]ナリタトップロード",
+    "holder": "[Celestial Road]成田路",
     "invokes": [
       {
         "skillId": "107702211",
@@ -94233,7 +94233,7 @@
     "group": 20333,
     "type": "speed",
     "sp": 320,
-    "holder": "[Inherited Hope]エアメサイア",
+    "holder": "[Inherited Hope]空中救主",
     "invokes": [
       {
         "skillId": "111101211",
@@ -94402,7 +94402,7 @@
     "group": 20334,
     "type": "speed",
     "sp": 340,
-    "holder": "[Glacialis Vega]アドマイヤベガ",
+    "holder": "[Glacialis Vega]愛慕織姬",
     "invokes": [
       {
         "skillId": "103302111",
@@ -94882,7 +94882,7 @@
     "group": 20337,
     "type": "speed",
     "sp": 360,
-    "holder": "[蒼炎の誉]グラスワンダー",
+    "holder": "[蒼炎之譽]草上飛",
     "invokes": [
       {
         "skillId": "101103211",
@@ -95172,7 +95172,7 @@
     "group": 20338,
     "type": "multi",
     "sp": 360,
-    "holder": "[雅号・墨龍]カツラギエース",
+    "holder": "[雅號・墨龍]葛城王牌",
     "invokes": [
       {
         "skillId": "110402111",
@@ -95344,7 +95344,7 @@
     "group": 20339,
     "type": "speed",
     "sp": 340,
-    "holder": "[雅号・墨龍]カツラギエース",
+    "holder": "[雅號・墨龍]葛城王牌",
     "invokes": [
       {
         "skillId": "110402211",
@@ -96171,7 +96171,7 @@
     "group": 20346,
     "type": "speed",
     "sp": 360,
-    "holder": "[祝ひ寿ぐ神速天女]マルゼンスキー",
+    "holder": "[祝福長壽的神速天女]丸善斯基",
     "invokes": [
       {
         "skillId": "100403211",
@@ -96325,7 +96325,7 @@
     "group": 20347,
     "type": "speed",
     "sp": 360,
-    "holder": "[衣錦還郷の瑞星]フリオーソ",
+    "holder": "[衣錦還鄉的吉祥之星]狂怒樂章",
     "invokes": [
       {
         "skillId": "107901211",
@@ -96495,7 +96495,7 @@
     "group": 20348,
     "type": "acceleration",
     "sp": 340,
-    "holder": "[溶けない砂糖菓子]アストンマーチャン",
+    "holder": "[無法融化的糖果]真弓快車",
     "invokes": [
       {
         "skillId": "108702211",
@@ -96859,7 +96859,7 @@
     "group": 20351,
     "type": "speed",
     "sp": 400,
-    "holder": "[総攬]オルフェーヴル",
+    "holder": "[總攬]黃金巨匠",
     "invokes": [
       {
         "skillId": "111501211",
@@ -96930,7 +96930,7 @@
     "group": 20351,
     "type": "multi",
     "sp": 400,
-    "holder": "[総攬]オルフェーヴル",
+    "holder": "[總攬]黃金巨匠",
     "invokes": [
       {
         "skillId": "111501221",
